@@ -1,0 +1,103 @@
+
+header{
+	
+	height:3rem;
+    
+	background:#f44;
+
+}
+header .hleft{
+	float:left;
+}
+header .hright{
+	float:right;
+}
+header span{
+	font-family:'icomoon';
+}
+header .hleft span::before{
+	content:"\e904";
+}
+header .hright span.weather::before{
+    content: "\e901";
+}
+header .hright span.me::before{
+	content:"\e902";
+}
+header .hright span.list::before{
+	content:"\e900";
+}
+header span{
+	line-height:3rem;
+	font-size:1.5rem;
+	color:#fff;
+}
+header button{
+	background:transparent;
+	border:1px solid #999;
+}
+nav{
+	overflow:hidden;
+	text-align:center;
+	margin-bottom:1rem;
+}
+nav li{
+	width:20%;
+	float:left;
+	margin-top:1rem;
+	
+}
+nav li a{
+	color:#333;
+	text-decoration:none;
+	font-size:1.4rem;
+}
+nav li a.select::before{
+	font-family:'icomoon';
+	content: "\e903";
+}
+section.banner{
+	width:100%;
+	overflow:hidden;
+}
+section.banner ul{
+	width:300%;
+}
+section.banner ul li{
+	float:left;
+	width:33.333%;
+}
+section.banner ul li img{
+	width:100%;
+}
+section.content header{
+	background:#fff;
+}
+section.content header span.aleft{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#f44;
+
+
+}
+section.content header div.aright{
+	float:right;
+	margin-right:0.8rem;
+}
+section.content header span.aright{
+	color:#f44;
+	font-size:1.2rem;
+}
+section.content article div{
+	overflow:hidden;
+	border-top:1px solid #999;
+	margin-left:1rem;
+}
+section.content article div img{
+	float:left;
+
+	margin:1rem 1rem 1rem 0;
+}
+section.content article div p{
+	margin-top:1rem;
+}
